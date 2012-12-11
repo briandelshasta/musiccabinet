@@ -53,7 +53,7 @@ public class AbstractMusicBrainzClientTest {
 		client.get();
 		ms += System.currentTimeMillis();
 
-		assertTrue("Web service only took " + ms + " ms", ms > 1000);
+		assertTrue("Web service only took " + ms + " ms", ms > 800);
 	}
 		
 	@Test
